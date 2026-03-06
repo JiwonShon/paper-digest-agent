@@ -1,0 +1,29 @@
+{
+  "lookback_hours": 168,
+  "max_results_per_keyword": 20,
+  "sleep_seconds": 3.1,
+  "top_n": 8,
+  "seen_keep_days": 90,
+  "keywords": [
+    {
+      "label": "ecDNA + Drug Resistance",
+      "query": "(all:ecDNA OR all:\"extrachromosomal DNA\") AND all:\"drug resistance\""
+    },
+    {
+      "label": "ecDNA + Drug Resistance + Deep Learning",
+      "query": "(all:ecDNA OR all:\"extrachromosomal DNA\") AND all:\"drug resistance\" AND all:\"deep learning\""
+    },
+    {
+      "label": "ecDNA + Clonal Evolution",
+      "query": "(all:ecDNA OR all:\"extrachromosomal DNA\") AND all:\"clonal evolution\""
+    },
+    {
+      "label": "ecDNA + Single-Cell",
+      "query": "(all:ecDNA OR all:\"extrachromosomal DNA\") AND (all:\"single-cell\" OR all:\"single cell\")"
+    },
+    {
+      "label": "ecDNA + Single-Cell + Clonal Evolution",
+      "query": "(all:ecDNA OR all:\"extrachromosomal DNA\") AND (all:\"single-cell\" OR all:\"single cell\") AND all:\"clonal evolution\""
+    }
+  ]
+}
